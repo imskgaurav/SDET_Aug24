@@ -1,4 +1,4 @@
-package com.sel.dataprovider;
+package com.design.pattern.dataprovider;
 
 import org.testng.annotations.DataProvider;
 import org.testng.annotations.Test;

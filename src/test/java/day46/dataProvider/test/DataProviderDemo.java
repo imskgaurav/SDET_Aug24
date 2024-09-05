@@ -40,6 +40,7 @@ void testLogin(String email, String pwd){
 
     wait.until(ExpectedConditions.visibilityOf(emailTxt));
     wait.until(ExpectedConditions.visibilityOf(passTxt));
+    System.out.println("Email is:"+email);
     emailTxt.sendKeys(email);
     passTxt.sendKeys(pwd);
     wait.until(ExpectedConditions.elementToBeClickable(loginBtn));
@@ -72,10 +73,12 @@ Assert.assertTrue(driver.getCurrentUrl().contains("logout"), "Logout Url is Wron
 
 }
 
-@DataProvider(name= "loginData")
+@DataProvider(name= "loginData", indices = {0,2})
 public Object [][] dataSet(){
          String data[][]= { {"shashikant.gaurav@gmail.com", "2231980"},
-                 {"kashyap130420@gmail.com", "13042020"}};
+                 {"kashyap130420@gmail.com", "13042020"},
+                 {"roshan223in@gmail.com", "2231980"}};
+
      return data;
 }
 }

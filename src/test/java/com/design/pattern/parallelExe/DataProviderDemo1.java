@@ -1,4 +1,4 @@
-package com.sel.parallelExe;
+package com.design.pattern.parallelExe;
 
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
