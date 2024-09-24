@@ -5,7 +5,6 @@ import java.awt.*;
 public class Browser {
     //https://www.youtube.com/watch?v=khnair65cVc
     // Step 1: Create Private Static instance of the class
-
     private static Browser browser;
 
     //Step2 :Private constructor to prevent/avoid instantiation of Object//

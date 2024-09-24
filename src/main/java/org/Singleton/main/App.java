@@ -1,4 +1,4 @@
-package org.Singleton.Naveen;
+package org.Singleton.main;
 
 /**
  * Hello world!
