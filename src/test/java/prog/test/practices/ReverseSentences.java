@@ -5,7 +5,8 @@ public class ReverseSentences {
     public static void main(String[] args) {
 
 
-        String sen= "Test Automation Central";
+        //String sen= "Test Automation Central";
+        String sen= "..geeks..for.geeks.";
          String rev= "";
         String [] words = sen.split(" ");
 
