@@ -1,6 +1,6 @@
 package com.java.dsaArray;
 
-import java.sql.SQLOutput;
+
 import java.util.Arrays;
 
 public class StaticArr {
