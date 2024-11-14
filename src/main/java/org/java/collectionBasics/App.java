@@ -1,4 +1,4 @@
-package org.Singleton.main;
+package org.java.collectionBasics;
 
 /**
  * Hello world!

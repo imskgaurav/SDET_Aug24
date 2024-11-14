@@ -4,7 +4,6 @@ import static  java.lang.System.out;
 public class Recursion {
 
     public static void main(String[] args) {
-
         int fact =factorial(5);
        out.print("Factorial is :" +fact);
 

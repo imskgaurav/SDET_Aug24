@@ -12,7 +12,6 @@ public class MethodHidingEx {
 
     class Parent1 {
         static void print1() {
-
             System.out.println("Parent Method");
         }
 

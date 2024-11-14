@@ -8,7 +8,6 @@ public class TwoPointerTechniques {
 
     }
 
-
     public static boolean checkIfPalindrome(String s){
     int left =0;
 

@@ -1,12 +1,10 @@
 package com.java.dsaArray;
 
 public class MissingNumber {
-
     public static void main(String[] args) {
         int[] arr = {12, 13, 17, 18, 21, 24, 25, 26};
         findMissingNumberInArray(arr);
     }
-
     public static void findMissingNumberInArray(int arr[]){
 
        if(arr.length>=2){
@@ -17,7 +15,6 @@ public class MissingNumber {
                if(arr[startIndex] <arr[nextIndex]){
 
                    //find the Answer
-
                    int x=arr[nextIndex] -arr[startIndex];
                    //used for loop
 

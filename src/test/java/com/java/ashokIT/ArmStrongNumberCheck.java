@@ -4,7 +4,6 @@ import javax.swing.plaf.synth.SynthOptionPaneUI;
 
 public class ArmStrongNumberCheck {
 
-
     //*153 = 1*1*1 + 5*5*5 + 3*3*3 = 1+125+27 =153//
 
     public static void main(String[] args) {
