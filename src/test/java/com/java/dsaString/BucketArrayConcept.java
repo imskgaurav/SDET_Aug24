@@ -2,19 +2,17 @@ package com.java.dsaString;
 
 public class BucketArrayConcept {
 
-
     public static void main(String[] args) {
 
         // Ascii value of A is : 65
         //Ascii value of a is : 97
         createBucketArrayForAllAlphabets("dormitory");
 
-
     }
 
     public static void createBucketArrayForAllAlphabets(String str1){
         str1= str1.toLowerCase();
-        //initialsed Bucket Array
+        //initialed Bucket Array
         int [] counts = new int[26];
 
         for(int i=0; i<str1.length(); i++){

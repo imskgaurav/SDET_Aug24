@@ -32,7 +32,6 @@ public class LeetCode_151_ReverseWord {
         Collections.reverse(li);
         System.out.println("Collection Reverse id DONE");
         System.out.println(li);
-
         return String.join(" ", li);
     }
 }

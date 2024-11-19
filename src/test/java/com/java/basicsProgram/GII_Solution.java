@@ -13,8 +13,6 @@ public class GII_Solution {
 	
 	
 	public static void main(String[] args) {
-		
-		
 		String url = "";
 		
 		WebDriver driver = new 	ChromeDriver();
@@ -27,8 +25,7 @@ public class GII_Solution {
 		
 		driver.manage().timeouts().pageLoadTimeout(Duration.ofSeconds(160));
 		
-		
-		
+
 		driver.findElement(By.xpath("")).sendKeys(args);
 		
 		

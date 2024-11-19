@@ -9,10 +9,11 @@ public class FindAllDuplicateInArray_442 {
     // where all the integers of nums are in the range [1, n] and each integer
     // appears at most twice, return an array of all the integers that appears twice.
    /* Example 1: Input: nums = [4,3,2,7,8,2,3,1]   Output: [2,3] */
-
     //[4,3,2,7,8,2,3,1]   :
     // 4-1 =3 Find the 3rd Index value and make it negative
     //3-1=2 , Find the 2nd Index Value and make it Negative
+
+    //https://www.youtube.com/watch?v=HZ9oMHiuwI4
 
     public static void main(String[] args) {
          int nums [] = {4,3,2,7,8,2,3,1};
@@ -25,11 +26,9 @@ public class FindAllDuplicateInArray_442 {
 
         for(int i=0; i<nums.length; i++){
             //Find the Element first
-
             int elm = Math.abs(nums[i]);
             int seat = elm-1;
             if(nums[seat]<0){
-
                 System.out.println("Duplicate Elm Found ,add it to list");
                 arr.add(elm);
 

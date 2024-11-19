@@ -27,8 +27,7 @@ public class WindowHandling {
 
 @AfterClass
     public void tearDown(){
-
-        driver.close();
+        driver.quit();
 }
 @Test
 public  void switchToOriginalWindow(){
@@ -42,7 +41,6 @@ public  void switchToOriginalWindow(){
 
      for(String win : driver.getWindowHandles()){
       if(win.contentEquals(originalWin)){
-
           driver.switchTo().window(originalWin);
           break;
       }

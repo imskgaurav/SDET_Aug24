@@ -4,7 +4,6 @@ public class SplitFunction {
 
 
     public static void main(String[] args) {
-
         String s = "  Hello  Coder ";
       String words[]=  s.split(" ");
       for(String str:words){
