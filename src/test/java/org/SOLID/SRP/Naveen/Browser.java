@@ -1,6 +1,4 @@
-package org.Singleton.Naveen;
-
-import java.awt.*;
+package org.SOLID.SRP.Naveen;
 
 public class Browser {
     //https://www.youtube.com/watch?v=khnair65cVc

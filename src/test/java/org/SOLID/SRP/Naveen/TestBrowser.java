@@ -1,4 +1,4 @@
-package org.Singleton.Naveen;
+package org.SOLID.SRP.Naveen;
 
 public class TestBrowser {
 
