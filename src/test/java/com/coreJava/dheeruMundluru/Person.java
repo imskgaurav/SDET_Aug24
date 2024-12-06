@@ -1,6 +1,5 @@
 package com.coreJava.dheeruMundluru;
 
-import com.java.ashokIT.PRIMENumber;
 // UDEMY : Tim Buchalka's Learn
 public class Person {
     @Override

@@ -7,14 +7,9 @@ import java.util.Set;
 import java.util.Map.Entry;
 
 public class HashMapPrint1 {
-
-
     public static void main(String[] args) {
-
         Map<String, String> hmap1 = new LinkedHashMap<>();
-
         System.out.println(hmap1.isEmpty());
-
         hmap1.put("India" , "New Delhi");
         hmap1.put("England", "London");
         hmap1.put("Germany", "Berlin");
@@ -38,11 +33,9 @@ public class HashMapPrint1 {
         System.out.println(xx);
         System.out.println(hmap1);
 
-        //Iterate throught keySet //
+        //Iterate through keySet //
         for(String s: hmap1.keySet()){
-
             System.out.println(s);
-
             System.out.println(hmap1.get(s));
         }
 
@@ -53,9 +46,6 @@ public class HashMapPrint1 {
             System.out.println(e.getKey()+ e.getValue());
 
         }
-
-
-
 
 
 
