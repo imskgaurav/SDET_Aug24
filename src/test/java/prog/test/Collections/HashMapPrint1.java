@@ -16,11 +16,15 @@ public class HashMapPrint1 {
         hmap1.put("Norway", "Oslo");
         hmap1.put("USA", "Washington DC");
         hmap1.put( "Canada","Ottawa");
+        hmap1.put(null, "Kailasha");
         hmap1.putIfAbsent("UK","London");
-        hmap1.putIfAbsent("India","New Delhi");
+        hmap1.putIfAbsent("Srilanka","Colombo");
+
         System.out.println(hmap1);
-
-
+        System.out.println("Checking HashmAP function");
+        // containsKey and  containsValue
+        System.out.println(hmap1.containsValue("Oslo"));
+        System.out.println(hmap1.containsKey("Canada"));
         //Remove the Keys, Value will be return //
 
        String s1= hmap1.remove("Germany");
@@ -47,7 +51,13 @@ public class HashMapPrint1 {
 
         }
 
+        // CHANGE value to UPPERCASE
+        for(Map.Entry<String , String>   entry : hmap1.entrySet()) {
 
+               entry.setValue(entry.getValue().toUpperCase());
+        }
+
+        System.out.println("Print HashMap :"+ hmap1);
 
     }
 }
