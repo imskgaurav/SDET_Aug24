@@ -1,0 +1,1 @@
+{"uuid":"adbc3bb3-71b8-45dc-baaf-8db5acf4fd0d","name":"TutorialNinja","children":["b7e06b22-a56f-4032-9b17-d1ad74cfca53"],"befores":[{"name":"launchChrome","status":"passed","stage":"finished","description":"","steps":[],"attachments":[],"parameters":[],"start":1727192522355,"stop":1727192526671}],"afters":[],"start":1727192522343,"stop":1727192526728}
