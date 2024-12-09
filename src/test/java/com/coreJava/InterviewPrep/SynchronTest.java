@@ -26,7 +26,6 @@ if(Character.isDigit(c)){
 int x = Integer.parseInt(Character.toString(c));
 System.out.println(x);	
 StringBuilder sb= new StringBuilder();
-System.out.print(sb.isEmpty());
 for(int j=0;j<x; j++ ) {
 	System.out.println("Value of j is :"+j);
 	sb.append(s);

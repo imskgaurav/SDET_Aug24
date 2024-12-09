@@ -6,7 +6,6 @@ import java.util.List;
 import java.util.Map;
 import java.util.TreeMap;
 
-import tests.EIN_DropdownTestCase.sortDropdownElements;
 
 public class HashMapVal {
 

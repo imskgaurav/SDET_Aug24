@@ -1,6 +1,5 @@
 package com.coreJava.InterviewPrep;
 
-import static enums.User.SUSHMA_HM_ADMIN_PRE;
 
 import java.util.Scanner;
 

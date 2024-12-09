@@ -1,6 +1,5 @@
 package com.coreJava.InterviewPrep;
 
-import org.bouncycastle.jcajce.provider.asymmetric.EC;
 
 public class RunTimeExceptionExm {
 
