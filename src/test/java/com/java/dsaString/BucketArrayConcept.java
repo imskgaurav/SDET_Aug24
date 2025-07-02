@@ -19,6 +19,7 @@ public class BucketArrayConcept {
 
            //counts[str1.charAt(i) - 'a']++;// counts[3] = count[3]+1;
             int x= str1.charAt(i) - 'a';
+            System.out.println("Index for letter "+str1.charAt(i)+ " is"+ x);
             counts[x]= counts[x]+1;
 
 

@@ -29,17 +29,24 @@ public class StackFunction {
         st1.push("Akshar");
         st1.push("Sanju");
         System.out.println(st1);
+        // Search Element //
+
+        int index=  st1.search("Tilak");
+        System.out.println("found Element at index :"+index);
         System.out.println(st1.pop());
         System.out.println(st1);
 
+
         // // Pop elements from the stack
          while(!st1.isEmpty()){
-
              System.out.println(st1.pop());
          }
         st1.setSize(10);
         System.out.println(st1);
         System.out.println(st1.pop());
+
+
+
 
 
     }

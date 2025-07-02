@@ -2,6 +2,7 @@ package com.java.stringConcept;
 
 public class StringSplitForSpecialCharacter {
     public static void main(String[] args) {
+
         String str = "i.like.this.program.very.much";
 ////Output: str = “much.very.program.this.like.i”
 // Split the String using .
