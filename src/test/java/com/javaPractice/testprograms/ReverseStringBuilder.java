@@ -3,7 +3,6 @@ package com.javaPractice.testprograms;
 public class ReverseStringBuilder {
 
     public static void main(String[] args) {
-        
 
         StringBuilder sb = new StringBuilder("hello");
          int len = sb.length();

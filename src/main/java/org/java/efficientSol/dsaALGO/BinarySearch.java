@@ -7,7 +7,7 @@ public class BinarySearch {
     Start
     Take input array and Target
     Initialise start = 0 and end = (array size -1)
-    Intialise mid variable
+    Initialise mid variable
             mid = (start+end)/2
 if array[ mid ] == target then return mid
 if array[ mid ] < target then start = mid+1

@@ -2,7 +2,6 @@ package org.java.dsaALGO;
 
 public class BinarySearch_Iterative_Recursive {
 
-
     public static void main(String[] args) {
 
 
