@@ -9,7 +9,6 @@ public class MoveZeroAtEnd {
      int res []=   moveZero2End(nums);
         System.out.println(Arrays.toString(res));
     }
-
     static int [] moveZero2End(int arr[]){
         int len = arr.length;
         int insertPosition =0;

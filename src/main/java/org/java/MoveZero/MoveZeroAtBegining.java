@@ -1,7 +1,4 @@
 package org.java.MoveZero;
-
-import org.openqa.selenium.devtools.v127.storage.model.AttributionReportingAggregatableResult;
-
 import java.lang.reflect.Array;
 import java.util.Arrays;
 
@@ -33,8 +30,6 @@ public class MoveZeroAtBegining {
 
         }
         System.out.println("New ARRRAY "+Arrays.toString(nonZero));
-
-
      return arr;
     }
 }
